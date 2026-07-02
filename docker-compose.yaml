@@ -32,11 +32,9 @@ services:
       SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
     working_dir: /app
     volumes:
-      - ./tasks-backend/target/tasks-backend-1.0.1.jar:/app/app.jar:ro
+      - ./tasks-backend/target/tasks-backend-1.0.2.jar:/app/app.jar:ro
     networks:
       - tasks-network
-#    ports:
-#      - "${BACKEND_PORT}:8080"
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/task-lists"]
       interval: 10s

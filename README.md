@@ -1,6 +1,6 @@
 # Tasks
 
-![](https://github.com/markus-grosshaeuser/badges/blob/main/versions/version_1_0_0.svg)
+![](https://github.com/markus-grosshaeuser/badges/blob/main/versions/version_1_0_1.svg)
 ![](https://github.com/markus-grosshaeuser/badges/blob/main/languages/TypeScript-v6.0.3.svg)
 ![](https://github.com/markus-grosshaeuser/badges/blob/main/frameworks/React-v19.2.6.svg)
 ![](https://github.com/markus-grosshaeuser/badges/blob/main/languages/Java-25.svg)
